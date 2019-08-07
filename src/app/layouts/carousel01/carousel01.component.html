@@ -23,7 +23,10 @@
               *ngFor="let slide of slides; let i = index"
               (click)="slideClicked(i)"
             >
+            <div>
               <img class="slide-img" src="{{ slide.src }}" alt="" />
+            </div>
+              
             </app-my-carousel01-slide>
           </app-my-carousel01>
         </div>
