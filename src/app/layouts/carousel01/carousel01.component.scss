@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right
-        bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
+        bottom, from(transparent), color-stop(75%, transparent), to(rgba(211, 75, 75, 0.7)));
 }
 
 .my-carousel-container {

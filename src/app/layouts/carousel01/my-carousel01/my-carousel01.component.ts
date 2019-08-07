@@ -142,7 +142,7 @@ export class MyCarousel01Component implements OnInit, OnDestroy, OnChanges {
         top: slideTop + "px",
         "border-width": this.carousel3d.border + "px",
         width: outerWidth + "px",
-        height: outerHeight + "px"
+        height: 340 + "px"
       };
 
       if (animate) {
@@ -175,7 +175,7 @@ export class MyCarousel01Component implements OnInit, OnDestroy, OnChanges {
         left: slideLeft + "px",
         top: slideTop + "px",
         width: outerWidth + "px",
-        height: outerHeight + "px"
+        height: 370 + "px"
       });
 
     this.carousel3d.rightSlides.forEach((slide, index) => {
